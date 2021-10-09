@@ -47,4 +47,4 @@ Cells(4 + k, 1).Value = tickers(k)
 Cells(4 + k, 2).Value = tickerVolumes(k)
 Cells(4 + k, 3).Value = tickerEndingPrices(k) / tickerStartingPrices(k) - 1
 ```
-the improved script loops through the data one time to collect all of the information and improves performance by .7 seconds.
+the improved script loops through the data one time to collect all of the information and improved performance by .7 seconds.
